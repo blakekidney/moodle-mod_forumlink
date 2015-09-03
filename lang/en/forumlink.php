@@ -11,6 +11,8 @@ defined('MOODLE_INTERNAL') || die();
  
 $string['modulename'] = 'Forum Link';
 $string['modulenameplural'] = 'Forum Links';
+$string['forumlink:addinstance'] = 'Add a new forum link';
+$string['forumlink:view'] = 'View forum link';
 $string['modulename_help'] = 'Use the forum link module linking to a forum in another section.';
 $string['pluginadministration'] = 'Forum Link Administration';
 $string['pluginname'] = 'Forum Link';

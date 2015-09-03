@@ -21,7 +21,7 @@ function forumlink_supports($feature) {
 		//yes
         case FEATURE_BACKUP_MOODLE2:          return true;		//True if module supports backup/restore of moodle2 format
         case FEATURE_MOD_INTRO:               return true;		//True if module supports intro editor
-        case FEATURE_COMPLETION_TRACKS_VIEWS: return true;		//True if module supports groupmembersonly
+        case FEATURE_COMPLETION_TRACKS_VIEWS: return true;		//True if module can support completion 'on view'
 		//no
         case FEATURE_NO_VIEW_LINK:            return false;		//True if module has no 'view' page
 		case FEATURE_IDNUMBER:                return false;		//True if module supports outcomes	
