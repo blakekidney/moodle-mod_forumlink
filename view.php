@@ -29,7 +29,6 @@ require_course_login($course, true, $cm);
 $context = context_module::instance($cm->id);
 require_capability('mod/forumlink:view', $context);
 
-/*
 $params = array(
     'context' => $context,
     'objectid' => $forumlink->id
@@ -43,7 +42,6 @@ $event->trigger();
 // Update 'viewed' state if required by completion system
 $completion = new completion_info($course);
 $completion->set_module_viewed($cm);
-*/
 
 $PAGE->set_url('/mod/forumlink/view.php', array('id' => $cm->id));
 
